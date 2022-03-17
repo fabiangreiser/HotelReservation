@@ -1,2 +1,2 @@
 # Hotel Reservations - Coding Exercise
-# By Fabian Greiser
+By Fabian Greiser
