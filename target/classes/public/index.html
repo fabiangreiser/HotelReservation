@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="functions.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+        <title>Hotel reservation</title>
+    </head>
+    <body>
+        <main class="container" style="width:50%">
+            <div>
+                <h1>Hotel reservation</h1>
+            </div>
+            <div>
+                <form>
+                    <label for="inputSize">Choose room amount</label>
+                    <input id="inputSize">
+                    <button type="button" id="btnSubmitSize">change Room Amount</button>
+                </form>
+                <h3 id="returnValue"/>
+            </div>
+            <div>
+                <form>
+                    <label for="inputStart">start day</label>
+                    <input id="inputStart">
+                    <label for="inputEnd">end day</label>
+                    <input id="inputEnd">
+                    <button type="button" id="btnSubmitBooking">Submit Booking</button>
+                </form>
+                <h3 id="bookingResult"/>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+com\adesso\reservations\service\ReservationService$Decision.class
+com\adesso\reservations\model\HotelResetModel.class
+com\adesso\reservations\ReservationsApplication.class
+com\adesso\reservations\service\ReservationService.class
+com\adesso\reservations\model\BookingModel.class
+com\adesso\reservations\controller\ReservationController.class
+com\adesso\reservations\model\ReservationModel.class
